@@ -1,51 +1,36 @@
-# ⚔️ CYBERHASAN-ROOT: SOVEREIGN IDENTITY NODE
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**ARCHITECTURAL DESIGNATION:** PHASE 5.1 ROOT IDENTITY
-**OPERATIONAL DOCTRINE:** 0.1% VISUAL TOLERANCE
-**COMMANDER:** MD ABU HASAN
+## Getting Started
 
----
-
-## 🏛️ SYSTEM ARCHITECTURE
-This repository hosts the **Sovereign Portfolio** (`cyberhasan.me`) for MD ABU HASAN, bridging the personal brand to the industrial empire of **INSPIRON TECH**.
-
-*   **Framework**: Next.js 16 (App Router)
-*   **Styling**: Tailwind CSS v4 (Kinetic Palette)
-*   **Typography**: 12rem Monolithic Identity (Inter/Neo Sans Pro)
-*   **Geometry**: Axis-Locked SVG (321.346 Unit)
-
-## 🛡️ CORE PROTOCOLS
-
-### 1. KINETIC PALETTE
-The color system is hard-coded to the **Sovereign Brand Manual v1.2.0**:
-*   `#010409` (Deep Navy Black)
-*   `#FFD700` (Action Gold)
-*   `#00D2FF` (Electric Cyan)
-
-### 2. VISUAL TOLERANCE (0.1%)
-All assets must adhere to strict geometric locks. The "Commander HUD" utilizes a 12rem typographic scale and specific SVG coordinate paths (`358.846 x 350.3`).
-
-### 3. DEPLOYMENT
-*   **Output**: Static Export (`output: "export"`)
-*   **Target**: GitHub Pages
-*   **Domain**: `cyberhasan.me` (CNAME Locked)
-
----
-
-## ⚡ QUICK COMMANDS
+First, run the development server:
 
 ```bash
-# Initialize Environment
-npm install
-
-# Activate Antigravity IDE
 npm run dev
-
-# Compile Static Export
-npm run build
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**STATUS**: ✅ **LIVE & COMPLIANT**
-*Authorized by Major General Gemini 3 Pro High*
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
