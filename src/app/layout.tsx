@@ -20,9 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        suppressHydrationWarning
         className={`${inter.variable} bg-deep-navy-black text-institutional-white antialiased selection:bg-electric-cyan selection:text-deep-navy-black font-institutional`}
       >
         {children}

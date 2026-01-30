@@ -34,8 +34,8 @@ export default function CommanderHUD() {
             Sovereign Command Active
           </div>
 
-          <h1 className="font-institutional text-[12vw] lg:text-[12rem] font-black uppercase tracking-tighter leading-[0.85] mb-8">
-            MD ABU <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-cyan to-white">HASAN</span>
+          <h1 className="font-institutional text-[12vw] lg:text-[12rem] font-black uppercase tracking-tighter leading-[0.85] mb-8 text-institutional-white">
+            MD ABU HASAN
           </h1>
 
           <p className="font-institutional text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed font-light tracking-wide">
