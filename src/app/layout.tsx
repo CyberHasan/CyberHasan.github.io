@@ -1,28 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-neo-sans", // Mapping Inter to the variable expected by the Doctrine
-});
-
 export const metadata: Metadata = {
-  title: "MD ABU HASAN | Institutional Systems Architect",
-  description: "Sovereign Root Identity v1.0",
+  title: "MD ABU HASAN | Root Identity Node",
+  description: "Institutional Systems Architect",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} bg-deep-navy-black text-institutional-white antialiased font-institutional`}
-        suppressHydrationWarning
-      >
+      <body suppressHydrationWarning className="antialiased">
         {children}
       </body>
     </html>
