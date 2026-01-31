@@ -4,12 +4,13 @@ import { Target, Zap, Terminal, ExternalLink } from 'lucide-react';
 export default function CommanderHUD() {
   return (
     <main className="min-h-screen bg-deep-navy-black text-institutional-white relative overflow-hidden flex flex-col items-center justify-center p-6 font-institutional">
+      {/* Blueprint Grid Overlay */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{ backgroundImage: 'radial-gradient(#00D2FF 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
 
-
       <div className="relative z-10 max-w-7xl w-full text-center">
-        <div className="w-44 h-44 mx-auto mb-12 text-electric-cyan drop-shadow-[0_0_25px_rgba(0,210,255,0.4)]">
+        {/* SOVEREIGN SVG UNIT (AXIS LOCK: 321.346) WITH VAULTMASK OVERRIDE */}
+        <div className="w-44 h-44 mx-auto mb-12 text-electric-cyan drop-shadow-[0_0_25px_rgba(0,210,255,0.4)] transition-all duration-700 hover:scale-105">
           <svg viewBox="0 0 358.846 350.3" className="w-full h-full">
             <defs>
               <mask id="VaultMask_Final" x="-1075.154" y="-1075" width="3000" height="3000" maskUnits="userSpaceOnUse">
@@ -25,7 +26,8 @@ export default function CommanderHUD() {
           </svg>
         </div>
 
-        <h1 className="text-[5rem] md:text-[12rem] font-black uppercase tracking-tighter leading-[0.85] mb-8">
+        {/* 12REM MONOLITHIC IDENTITY */}
+        <h1 className="text-[5rem] md:text-[12rem] font-black uppercase tracking-tighter leading-[0.85] mb-8 select-none">
           MD ABU <span className="text-institutional-white">HASAN</span>
         </h1>
 
@@ -33,19 +35,23 @@ export default function CommanderHUD() {
           Institutional Systems Architect <span className="text-electric-cyan">/</span> Founder of <span className="text-institutional-white font-bold">INSPIRON TECH</span>
         </p>
 
+        {/* SECTOR GRID */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          <a href="https://inspiron.tech" target="_blank" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-electric-cyan transition-all group relative">
+          <a href="https://inspiron.tech" target="_blank" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-electric-cyan hover:bg-white/[0.08] transition-all group relative">
             <Target className="text-electric-cyan mb-4 mx-auto" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Revenue Gateway</h3>
-            <ExternalLink className="absolute top-2 right-2 opacity-20" size={14} />
+            <ExternalLink className="absolute top-2 right-2 opacity-20 group-hover:opacity-100 transition-opacity" size={14} />
           </a>
-          <a href="/guidelines" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/40 transition-all">
-            <Terminal className="text-white/40 mb-4 mx-auto" size={28} />
+          {/* TACTICAL OVERRIDE: Link to Guidelines (Brand Doctrine) instead of restricted Intelligence Core */}
+          <a href="/guidelines" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-white/40 hover:bg-white/[0.08] transition-all group">
+            <Terminal className="text-white/40 mb-4 mx-auto group-hover:text-institutional-white transition-colors" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Brand Doctrine</h3>
           </a>
-          <a href="https://www.linkedin.com/in/cyberhasan/" target="_blank" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-action-gold hover:bg-white/[0.08] transition-all group relative overflow-hidden">
+          {/* TACTICAL OVERRIDE: Social Vector Updated to cyberhasan */}
+          <a href="https://www.linkedin.com/in/cyberhasan/" target="_blank" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-action-gold hover:bg-white/[0.08] transition-all group relative">
             <Zap className="text-action-gold mb-4 mx-auto" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Social Command</h3>
+            <ExternalLink className="absolute top-2 right-2 opacity-20 group-hover:opacity-100 transition-opacity" size={14} />
           </a>
         </div>
       </div>
