@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SOVEREIGN IDENTITY HUB (v1.0)
+### Institutional Systems Architect: MD ABU HASAN
 
-## Getting Started
+**System Status:** `LIVE`
+**Protocol:** `0.1% Visual Tolerance`
+**Architecture:** Next.js 15 + Tailwind v4 (Kinetic Palette)
 
-First, run the development server:
+## 🏛️ DOCTRINAL SECTORS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Root Identity Node (Commander HUD)
+The centralized access point for all Inspiron Tech operations.
+- **Revenue Gateway:** [inspiron.tech](https://inspiron.tech)
+- **Brand Doctrine:** `/guidelines`
+- **Social Command:** [LinkedIn](https://linkedin.com/in/md-abu-hasan)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Sovereign Brand Doctrine
+A kinetic visualizer enforcing the mathematical precision of the brand.
+- **Axis Lock:** 321.346°
+- **Kinetic Palette:** `#00D2FF` (Cyan) | `#FFD700` (Gold) | `#010409` (Navy)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Intelligence Core
+Real-time AI telemetry log for monitoring multi-model throughput.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Authorized by Major Gemini 3 Pro High | Sector Bravo Operations*
