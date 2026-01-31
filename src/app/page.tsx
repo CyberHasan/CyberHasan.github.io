@@ -35,7 +35,7 @@ export default function CommanderHUD() {
             <ExternalLink className="absolute top-2 right-2 opacity-20 group-hover:opacity-100 transition-opacity" size={14} />
           </a>
 
-          <Link href="/guidelines" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-electric-cyan hover:bg-white/[0.08] transition-all group relative overflow-hidden">
+          <Link href="/guidelines/intelligence-log" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-electric-cyan hover:bg-white/[0.08] transition-all group relative overflow-hidden">
             <Terminal className="text-electric-cyan mb-4 mx-auto" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Intelligence Core</h3>
             <ExternalLink className="absolute top-2 right-2 opacity-20 group-hover:opacity-100 transition-opacity" size={14} />
