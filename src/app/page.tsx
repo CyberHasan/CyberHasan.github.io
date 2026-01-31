@@ -24,7 +24,7 @@ export default function CommanderHUD() {
         </h1>
 
         <p className="text-lg md:text-2xl text-white/40 max-w-4xl mx-auto leading-relaxed font-light tracking-[0.2em] uppercase mb-16">
-          Institutional Systems Architect <span className="text-electric-cyan">/</span> Founder of <span className="text-institutional-white font-bold">INSPIRON TECH</span>
+          Institutional Systems Architect <span className="text-electric-cyan">/</span> Founder of <Link href="/guidelines" className="text-institutional-white font-bold hover:text-action-gold transition-colors">INSPIRON TECH</Link>
         </p>
 
         {/* SECTOR GRID */}
