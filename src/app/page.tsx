@@ -45,7 +45,7 @@ export default function CommanderHUD() {
             <Terminal className="text-white/40 mb-4 mx-auto" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Brand Doctrine</h3>
           </a>
-          <a href="https://linkedin.com/in/md-abu-hasan" target="_blank" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-action-gold transition-all">
+          <a href="https://www.linkedin.com/in/cyberhasan/" target="_blank" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-action-gold hover:bg-white/[0.08] transition-all group relative overflow-hidden">
             <Zap className="text-action-gold mb-4 mx-auto" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Social Command</h3>
           </a>

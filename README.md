@@ -11,7 +11,7 @@
 The centralized access point for all Inspiron Tech operations.
 - **Revenue Gateway:** [inspiron.tech](https://inspiron.tech)
 - **Brand Doctrine:** `/guidelines`
-- **Social Command:** [LinkedIn](https://linkedin.com/in/md-abu-hasan)
+- **Social Command:** [LinkedIn](https://www.linkedin.com/in/cyberhasan/)
 
 ### 2. Sovereign Brand Doctrine
 A kinetic visualizer enforcing the mathematical precision of the brand.
