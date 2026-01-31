@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #002147;
-  --foreground: #ffffff;
+  --background: #ffffff;
+  --foreground: #171717;
 }
 
 @theme inline {
@@ -10,18 +10,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-
-  /* BRAND COLORS - SOVEREIGN PALETTE */
-  --color-deep-navy-black: #010409;
-  --color-action-gold: #FFD700;
-  --color-electric-cyan: #00D2FF;
-  --color-institutional-white: #FFFFFF;
-
-  /* MAPPINGS & TYPOGRAPHY */
-  --color-tactical: var(--color-electric-cyan);
-  --color-navy: #002147;
-  --color-gold: var(--color-action-gold);
-  --font-institutional: var(--font-geist-sans);
 }
 
 @media (prefers-color-scheme: dark) {
