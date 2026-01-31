@@ -1,8 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  background: #010409;
-  color: #ffffff;
+@theme {
+  --color-deep-navy-black: #010409;
+  --color-action-gold: #FFD700;
+  --color-electric-cyan: #00D2FF;
+  --color-institutional-white: #FFFFFF;
+
+  --font-institutional: var(--font-neo-sans), sans-serif;
 }
