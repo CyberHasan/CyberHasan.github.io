@@ -2,30 +2,38 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const institutional = localFont({
+// LOADING SOVEREIGN ASSET: NEO SANS PRO
+// Assets relocated to src/assets/fonts for correct bundling
+const neoSans = localFont({
   src: [
     {
-      path: "../../public/fonts/NeoSansPro-Medium.woff",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/NeoSansPro-Bold.woff",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../../public/fonts/NeoSansPro-Light.woff",
+      path: "../assets/fonts/NeoSansPro-Light.woff",
       weight: "300",
       style: "normal",
     },
+    {
+      path: "../assets/fonts/NeoSansPro-Medium.woff",
+      weight: "500", // Using Medium as primary body weight
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/NeoSansPro-Bold.woff",
+      weight: "700",
+      style: "normal",
+    },
+    // CRITICAL FALLBACK: Mapping 900 (Black) to Bold asset
+    // because the 'Black' asset is missing but the design demands 900.
+    {
+      path: "../assets/fonts/NeoSansPro-Bold.woff",
+      weight: "900",
+      style: "normal",
+    },
   ],
-  variable: "--font-institutional",
-  display: "swap",
+  variable: "--font-neo-sans",
 });
 
 export const metadata: Metadata = {
-  title: "MD ABU HASAN | Root Identity Node",
+  title: "MD ABU HASAN | Sovereign Root Node",
   description: "Institutional Systems Architect",
 };
 
@@ -35,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${institutional.variable}`}>
+    <html lang="en" className={neoSans.variable}>
       <body
         suppressHydrationWarning
         className="bg-[#010409] text-white antialiased font-institutional"

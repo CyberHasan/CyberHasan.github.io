@@ -66,7 +66,7 @@ export default function BrandGuideline() {
                 <h2 className="text-xs font-bold text-electric-cyan uppercase tracking-[0.4em] mb-12">03. Monolithic Typography</h2>
                 <div className="space-y-12">
                     <div className="border-l-2 border-action-gold pl-8">
-                        <p className="text-[10px] text-action-gold uppercase tracking-widest mb-2">Primary Identifier (12rem)</p>
+                        <p className="text-[10px] text-action-gold uppercase tracking-widest mb-6">Primary Identifier (12rem)</p>
                         <h1 className="text-8xl md:text-[12rem] font-black uppercase leading-[0.8] tracking-tighter">INSPIRON</h1>
                     </div>
                     <div className="border-l-2 border-white/10 pl-8">
