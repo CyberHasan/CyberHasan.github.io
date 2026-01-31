@@ -6,5 +6,5 @@
   --color-electric-cyan: #00D2FF;
   --color-institutional-white: #FFFFFF;
 
-  --font-institutional: var(--font-neo-sans), sans-serif;
+  --font-institutional: var(--font-institutional), sans-serif;
 }
