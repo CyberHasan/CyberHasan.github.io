@@ -7,8 +7,6 @@ export default function CommanderHUD() {
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{ backgroundImage: 'radial-gradient(#00D2FF 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
 
-      {/* CALIBRATION LINE (PROTOCOL CHECK) */}
-      <div className="absolute top-0 bottom-0 w-[1px] bg-red-500/50 border-l border-dashed border-red-500 z-50 left-[89.5%]" style={{ opacity: 1 }}></div>
 
       <div className="relative z-10 max-w-7xl w-full text-center">
         <div className="w-44 h-44 mx-auto mb-12 text-electric-cyan drop-shadow-[0_0_25px_rgba(0,210,255,0.4)]">
