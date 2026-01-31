@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Target, Zap, Terminal, ExternalLink } from 'lucide-react';
 
 export default function CommanderHUD() {
@@ -33,11 +34,13 @@ export default function CommanderHUD() {
             <h3 className="font-bold uppercase tracking-widest text-xs">Revenue Gateway</h3>
             <ExternalLink className="absolute top-2 right-2 opacity-20 group-hover:opacity-100 transition-opacity" size={14} />
           </a>
-          <div className="bg-white/5 border border-white/10 p-8 rounded-sm opacity-30 cursor-not-allowed group">
-            <Terminal className="text-white/40 mb-4 mx-auto" size={28} />
+
+          <Link href="/guidelines" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-electric-cyan hover:bg-white/[0.08] transition-all group relative overflow-hidden">
+            <Terminal className="text-electric-cyan mb-4 mx-auto" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Intelligence Core</h3>
-            <span className="text-[10px] text-action-gold opacity-0 group-hover:opacity-100 transition-opacity">RESTRICTED SECTOR</span>
-          </div>
+            <ExternalLink className="absolute top-2 right-2 opacity-20 group-hover:opacity-100 transition-opacity" size={14} />
+          </Link>
+
           <a href="https://linkedin.com/in/md-abu-hasan" target="_blank" className="bg-white/5 border border-white/10 p-8 rounded-sm hover:border-action-gold hover:bg-white/[0.08] transition-all group relative overflow-hidden">
             <Zap className="text-action-gold mb-4 mx-auto" size={28} />
             <h3 className="font-bold uppercase tracking-widest text-xs">Social Command</h3>
