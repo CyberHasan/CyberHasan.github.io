@@ -57,17 +57,28 @@ export default function RevenueGateway() {
             <section className="bg-white/5 border border-white/10 p-12 text-center">
                 <FileText size={28} className="text-[#FFD700] mb-4 mx-auto" />
                 <h2 className="text-2xl font-bold uppercase tracking-[0.2em] mb-4">Upwork Profile</h2>
-                <p className="text-white/40 max-w-lg mx-auto mb-10 text-sm leading-relaxed">
+                <p className="text-white/40 max-w-lg mx-auto mb-6 text-sm leading-relaxed">
                     Manager.io ERP setup, migration, custom themes and reporting — serving businesses across Pakistan, UAE, and worldwide.
+                </p>
+                <p className="text-[10px] text-[#00D2FF] font-bold uppercase tracking-widest mb-10">
+                    Freelancer Plus · 100 Connects / Month · Direct Contracts: <span className="text-[#FFD700]">0% Service Fee</span>
                 </p>
                 <div className="flex justify-center gap-4 flex-wrap">
                     <a
-                        href="https://www.upwork.com/freelancers/~01f9e2a0a1ee6e9f19"
+                        href="https://www.upwork.com/freelancers/~011085e2a7cde3f437"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-[#FFD700] text-[#010409] px-10 py-4 font-black text-xs uppercase tracking-widest hover:shadow-[0_0_20px_rgba(255,215,0,0.3)] transition-all flex items-center gap-2"
                     >
                         Upwork Profile <ExternalLink size={14} />
+                    </a>
+                    <a
+                        href="https://www.upwork.com/ab/flservices/contracts/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="border border-[#00D2FF]/30 text-[#00D2FF] px-10 py-4 font-bold text-xs uppercase tracking-widest hover:border-[#00D2FF]/60 transition-all flex items-center gap-2"
+                    >
+                        Direct Contract <ArrowRight size={14} />
                     </a>
                     <a
                         href="https://inspiron.tech"
